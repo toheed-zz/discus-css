@@ -1,0 +1,148 @@
+/* stylelint-disable */
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.woff") format("woff"),
+  url("../fonts/icomoon.woff") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chevron-right-light:before {
+  content: "\e900";
+}
+.icon-angle-right-light:before {
+  content: "\e901";
+}
+.icon-times-regular:before {
+  content: "\e902";
+}
+.icon-times-light3:before {
+  content: "\e903";
+}
+.icon-check-light2:before {
+  content: "\e904";
+}
+.icon-search-solid:before {
+  content: "\e905";
+}
+.icon-arrow-big:before {
+  content: "\e906";
+}
+.icon-pin:before {
+  content: "\e907";
+}
+
+
+
+
+@font-face {
+    font-family: 'jomhuriaregular';
+    src: url('../fonts/jomhuria-regular-webfont.woff2') format('woff2'),
+         url('../fonts/jomhuria-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'khand';
+    src: url('../fonts/khand-medium-webfont.woff2') format('woff2'),
+         url('../fonts/khand-medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'khand';
+    src: url('../fonts/khand-regular-webfont.woff2') format('woff2'),
+         url('../fonts/khand-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'khand';
+    src: url('../fonts/khand-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/khand-semibold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'khand';
+    src: url('../fonts/khand-bold-webfont.woff2') format('woff2'),
+         url('../fonts/khand-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'khand';
+    src: url('../fonts/khand-light-webfont.woff2') format('woff2'),
+         url('../fonts/khand-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'palanquin';
+    src: url('../fonts/palanquin-regular-webfont.woff2') format('woff2'),
+         url('../fonts/palanquin-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'palanquin';
+    src: url('../fonts/palanquin-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/palanquin-semibold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'palanquin';
+    src: url('../fonts/palanquin-thin-webfont.woff2') format('woff2'),
+         url('../fonts/palanquin-thin-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'palanquin';
+    src: url('../fonts/palanquin-bold-webfont.woff2') format('woff2'),
+         url('../fonts/palanquin-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'palanquin';
+    src: url('../fonts/palanquin-light-webfont.woff2') format('woff2'),
+         url('../fonts/palanquin-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'palanquin';
+    src: url('../fonts/palanquin-medium-webfont.woff2') format('woff2'),
+         url('../fonts/palanquin-medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+
+}

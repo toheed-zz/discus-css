@@ -1,0 +1,73 @@
+/** @define header **/
+/* stylelint-disable */
+.header {
+  padding: 56px 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 999;
+
+  .container {
+    position: relative;
+  }
+}
+
+body:not(.home) {
+  .logo {
+    display: block;
+  }
+}
+
+.logo {
+  display: none;
+  width: 251px;
+  position: absolute;
+  left: 50%;
+  margin-left: -125px;
+  top: -10px;
+
+  @include media-breakpoint-down(md) {
+    width: 145px;
+  }
+
+  a {
+    display: block;
+  }
+
+  img {
+    @include img-style;
+  }
+}
+
+.btn-info {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 20px;
+  line-height: 27px;
+  border: 1px solid #fff;
+  padding: 5px 20px;
+  font-family: $khand-font;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-radius: 0;
+  background: none;
+  color: $white;
+
+  &:hover,
+  &:focus {
+    background: $yellow;
+    border-color: $yellow;
+    color: $black;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+  .icon {
+    font-size: 16px;
+    line-height: 1;
+    display: inline-block;
+    margin-right: 1px;
+  }  
+}
